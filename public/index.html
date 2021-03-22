@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend assignment</title>
+    <link rel="stylesheet" href="./assets/styles/main.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1>Red Alert</h1>
+      <p>by Warning</p>
+    </header>
+    <main>
+      <div class="hero">
+        <img src="assets/images/product-2-transparent.webp" alt="Warning Red Alert Basic">
+          <div class="hero__title">
+            <h2>Protect your home</h2>
+            <h3>for a criminally low price</h3>
+            <div class="hero__center__img">
+              <img src="assets/images/product-2-transparent.webp" alt="Warning Red Alert Basic">
+            </div>
+              <div class="hero__buttons">
+                <button class="hero__buttons--red" tabindex="0">Get started for &euro; 59,99</button>
+                <button class="hero__buttons--gray" id="more-information" tabindex="1">More information</button>
+              </div>
+          </div>
+        <img src="assets/images/product-1-transparent.webp" alt="Warning Red Alert Premium">
+      </div>
+      <div class="faq">
+        <h2>Most asked questions</h2>
+        <ul class="faq__accordion">
+          <li>
+            <input type="radio" name="faq-accordion" id="faq-item-1">
+            <label for="faq-item-1" id="top-label" tabindex="2">How long does Red Alert stay active after enabling?
+              <span>
+                <img src="assets/images/down-arrow.png" id="image1" alt="Down arrow">
+              </span>
+            </label>
+            <div class="content">
+              <p>Once you enable Red Alert, it stays active until the moment you have set during the initial setup
+              of your Red Alert Home Alarm. By default this is 08:00 in the morning.</p>
+            </div>
+          </li>
+          <li>
+            <input type="radio" name="faq-accordion" id="faq-item-2">
+            <label for="faq-item-2" tabindex="3">When should i replace Red Alert?
+              <span>
+                <img src="assets/images/down-arrow.png" alt="Down arrow">
+              </span>
+            </label>
+            <section class="content">
+              <p>Once you enable Red Alert, it stays active until the moment you have set during the initial setup
+                of your Red Alert Home Alarm. By default this is 08:00 in the morning.</p>
+            </section>
+          </li>
+          <li>
+            <input type="radio" name="faq-accordion" id="faq-item-3">
+            <label for="faq-item-3" tabindex="4">What is the benefit of Red Alert compared to other home invasion alarms?
+              <span>
+                <img src="assets/images/down-arrow.png" alt="Down arrow">
+              </span>
+            </label>
+            <section class="content">
+              <p>Once you enable Red Alert, it stays active until the moment you have set during the initial setup
+                of your Red Alert Home Alarm. By default this is 08:00 in the morning.</p>
+            </section>
+          </li>
+          <li>
+            <input type="radio" name="faq-accordion" id="faq-item-4">
+            <label for="faq-item-4" tabindex="5">What guarantees does Red Alert give against burglary?
+              <span>
+                <img src="assets/images/down-arrow.png" alt="Down arrow">
+              </span>
+            </label>
+            <section class="content">
+              <p>Once you enable Red Alert, it stays active until the moment you have set during the initial setup
+                of your Red Alert Home Alarm. By default this is 08:00 in the morning.</p>
+            </section>
+          </li>
+          <li>
+            <input type="radio" name="faq-accordion" id="faq-item-5" tabindex="6">
+            <label for="faq-item-5" id="bottom-label" tabindex="6">Why is Red Alert so cheap compared to competitors?
+              <span>
+                <img src="assets/images/down-arrow.png" alt="Down arrow">
+              </span>
+            </label>
+            <section class="content">
+              <p>Once you enable Red Alert, it stays active until the moment you have set during the initial setup
+                of your Red Alert Home Alarm. By default this is 08:00 in the morning.</p>
+            </section>
+          </li>
+        </ul>
+      </div>
+      <div class="modal modal-hidden" id="modal">
+        <div class="modal-content" id="modal-content">
+          <header class="modal-content__head">
+            <h3>More information</h3>
+          </header>
+          <div class="modal-content__mid">
+            <div class="modal-content__mid__top">
+              <img src="assets/images/product-2-transparent.webp" alt="Warning Red Alert Basic">
+              <h4>Warning Red Alert Basic</h4>
+              <p>Contains 3 door sensors, 2 door locks, 1 alarm and 1 hub.</p>
+              <p class="modal-content__mid__top--price">&euro; 59,99</p>
+            </div>
+            <div class="modal-content__mid__bottom">
+              <img src="assets/images/product-1-transparent.webp" alt="Warning Red Alert Premium">
+              <h4>Warning Red Alert Premium</h4>
+              <p>Contains everything Red Alert Basic has, plus a weather proof camera</p>
+              <p class="modal-content__mid__bottom--price">&euro; 109,99</p>
+            </div>
+          </div>
+          <div class="modal-content__bottom">
+            <button class="hero__buttons--red" id="modal-close">Close</button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./assets/scripts/bundle.js" defer></script>
+  </body>
+</html>
